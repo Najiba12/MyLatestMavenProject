@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features="src/test/resources/Features",
 		glue= {"StepDefinitions"},
-		tags =  "@LogoSmoke",
+		tags =  "@AccountSettingSmoke",
 		monochrome=true,
 		plugin= {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"html:target/HtmlReports.html",
